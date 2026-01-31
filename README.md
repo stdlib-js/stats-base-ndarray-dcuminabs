@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dcuminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dcuminabs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ndarray-dcuminabs/tags). For example,
+
+```javascript
 import dcuminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dcuminabs@v0.1.0-esm/index.mjs';
 ```
 
@@ -110,7 +115,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@esm/index.mjs';
 import zerosLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros-like@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import dcuminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dcuminabs@v0.1.0-esm/index.mjs';
+import dcuminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dcuminabs@esm/index.mjs';
 
 var xbuf = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
